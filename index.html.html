@@ -1,0 +1,116 @@
+!DOCTYPE html>
+<html>
+<head>
+<body background="back.jpg">
+<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+<link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="jquery-1.12.4/jquery.min.js"></script>
+
+
+<style>
+.ui-dialog.dialog-actionsheet .ui-dialog-contain {
+margin-top: 0;
+}
+</style>
+</head>
+
+<body background="back.jpg">
+<div data-role = "page" id = "page1">
+<div data-role = "header" data-theme = "b">
+<h2> <center>BACH N BARREL</center> </h2>
+<h2> 24 HOURS </h2>
+<img src="tenor.gif" alt="Girl in a jacket"width="70" height="70"class="center">
+<img src="logo.jpg" alt="Girl in a jacket"class="center" width="150" height="150">
+</div>
+
+<div role = "main" class = "ui-content">
+<a href = "#page2" class = "ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-lock">Menu</button>
+<a href = "#page3" class = "ui-btn ui-corner-all ui-btn-inline">
+Promote</a>
+<a href = "#page4" class = "ui-btn ui-corner-all ui-btn-inline">
+Drinks</a>
+</div>
+
+<div data-role = "footer">
+  <img src="24.jpg" alt="Girl in a jacket"height="320" width="320"align="middle">
+<h4>Justine Dave Susi</h4>
+</div>
+</div>
+
+<div data-role = "page" data-dialog = "true" id = "page2" data-corners = "false"
+data-overlay-theme = "b">
+<div data-role = "header">
+<h1>BEST SELLER</h1>
+</div>
+
+<div role = "main" class = "ui-content">
+<p> Sisig 200PHP.
+<img src="sisig.jpg" alt="Girl in a jacket">
+</p>
+<p> Bulaklak 250PHP
+<img src="bulaklak.jpg" alt="Girl in a jacket">
+</p>
+<p> Letchon Kawali 300PHP
+<img src="rose.jpg" alt="Girl in a jacket">
+</p>
+<p>  Pusit 300PHP
+<img src="sitpu.jpg" alt="Girl in a jacket">
+</p>
+
+
+
+<a data-rel = "back" class = "ui-btn ui-corner-all ui-btn-inline">Back</a>
+</div>
+</div>
+
+<div data-role = "page" class = "dialog-actionsheet" data-dialog = "true"
+id = "page3">
+<div role = "main" class = "ui-content">
+<h3>Please share </h3>
+<a href = "#page4" data-transition = "slidedown" class = "ui-btn ui-shadow
+ui-corner-all ui-btn-b">Email</a>
+
+<a href = "#page4" data-transition = "slidedown" class = "ui-btn ui-shadow
+ui-corner-all ui-btn-b">Share on Facebook</a>
+
+<a href = "#page4" data-transition = "slidedown" class = "ui-btn ui-shadow
+ui-corner-all ui-btn-b">Tweet photo</a>
+
+<a data-rel = "back" class = "ui-btn ui-shadow ui-corner-all ui-btn-a">
+Cancel</a>
+</div>
+</div>
+
+<div data-role = "page" class = "dialog-actionsheet" data-dialog = "true"
+id = "page4">
+<div role = "main" class = "ui-content">
+<h3>BNB</h3>
+<a href = "#page1" class = "ui-btn ui-shadow ui-corner-all ui-btn-a">
+Back</a>
+<div role = "main" class = "ui-content">
+<p> IceTea 120php </p>
+  <img src="icetea.jpg" alt="Girl in a jacket"height="320" width="320">
+</p>
+<p> Orange Juice </p>
+  <img src="orange.jpg" alt="Girl in a jacket"height="320" width="320">
+</p>
+<p> Lemon juice 300PHP
+<img src="lemon.jpg" alt="Girl in a jacket"height="320" width="320">
+</p>
+<p>  Mango Juice </p>
+<img src="mango.jpg" alt="susi"height="320" width="320">
+</p>
+<p>  Water Melon Juice </p>
+<img src="melon.jpg" alt="Girl in a jacket"height="320" width="320">
+</p>
+
+<a href = "#page1" class = "ui-btn ui-shadow ui-corner-all ui-btn-a">
+Done</a>
+</div>
+</div>
+
+</body>
+</html>
